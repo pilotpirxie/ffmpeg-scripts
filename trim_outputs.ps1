@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env pwsh
 # start trimming at 3.3 second from the start and last until 8.41 second from the start
 # ----------++++++++++++++++++++-----
 # ^         ^                  ^

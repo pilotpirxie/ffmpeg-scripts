@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env pwsh
 
 # concatenate two videos into one and set the output video resolution to 460x460px with black padding if necessary
 .\ffmpeg.exe -i .\pokemon.mp4 -i .\pokemon2.mp4 -filter_complex "[0:v]scale=460x460:force_original_aspect_ratio=decrease,pad=460:460:-1:-1:color=black[v0];

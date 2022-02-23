@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env pwsh
 # fade in audio and video for 2s and fade out for 2s since 18s
 # remaining audio will be silent
 # remaining video will be black
